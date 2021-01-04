@@ -1,0 +1,2 @@
+查看反汇编代码，包括机器码
+ndisasm -k 0x37,0x1c4 boot_sect_stack.bin | cat

@@ -1,0 +1,124 @@
+ 3705  cat temp.bj
+ 3706  man ndisasm
+ 3707  man cat
+ 3708  ssh eli
+ 3709  ls
+ 3710  clear
+ 3711  ls
+ 3712  reload
+ 3713  ls
+ 3714  relaod
+ 3715  reload
+ 3716  ls
+ 3717  reload
+ 3718  relaod
+ 3719  reload
+ 3720  exit
+ 3721  reload
+ 3722  ls
+ 3723  clear
+ 3724  ls /dev | grep 'sd'
+ 3725  ls /dev
+ 3726  :q
+ 3727  ls
+ 3728  clear
+ 3729  fdisk --help
+ 3730  man fdisk
+ 3731  fdisk
+ 3732  fdisk -d
+ 3733  fdisk -l
+ 3734  diskutil
+ 3735  disktool list
+ 3736  diskutil list
+ 3737  ls /dev
+ 3738  ls -l  /dev  |grep disk
+ 3739  ls -l  /dev  |grep '^disk'
+ 3740  ls -l  /dev  |grep '^disk.*'
+ 3741  ls -l  /dev  |grep "^disk"
+ 3742  ls -l  /dev  |grep "\bdisk"
+ 3743  man ls
+ 3744  ls /Volumes
+ 3745  mount
+ 3746  umount /dev/disk2s1
+ 3747  sudo umount /dev/disk2s1
+ 3748  ls -l  /dev  |grep "\bdisk"
+ 3749  ls /Volumes
+ 3750  mount
+ 3751  mount --help
+ 3752  trans -b special
+ 3753  mount /dev/disk2s1 /Volumes/Udisk
+ 3754  mount -t ntfs /dev/disk2s1 /Volumes/Udisk
+ 3755  mkdir /Volumes/Udisk
+ 3756  sudo mkdir /Volumes/Udisk
+ 3757  mount -t ntfs /dev/disk2s1 /Volumes/Udisk
+ 3758  sudo mount -t ntfs /dev/disk2s1 /Volumes/Udisk
+ 3759  mount
+ 3760  trans -b journal
+ 3761  trans -b journalel
+ 3762  trans -b journaled
+ 3763  mount
+ 3764  sudo mount -t ntfs /dev/disk2s1 /Volumes/Udisk
+ 3765  sudo mkdir /Volumes/Udisk
+ 3766  sudo mount -t ntfs /dev/disk2s1 /Volumes/Udisk
+ 3767  ls /Volumes
+ 3768  sudo mount -t ntfs /dev/disk2s1 /Volumes/Udisk
+ 3769  ls /Volumes/Udisk
+ 3770  rm -rf /Volumes/Udisk
+ 3771  sudo rm -rf /Volumes/Udisk
+ 3772  ls
+ 3773  ls /Volumes
+ 3774  sudo mkdir /Volumes/Udisk
+ 3775  sudo mount -t ntfs /dev/disk2s1 /Volumes/Udisk
+ 3776  ls /dev | grep '\bdisk'
+ 3777  ls /Volumes
+ 3778  ls
+ 3779  cd OSProjects
+ 3780  ls
+ 3781  dd if=/dev/disk2s1 bs=512 | cat
+ 3782  sudo dd if=/dev/disk2s1 bs=512 | cat
+ 3783  umount /dev/disk2s1
+ 3784  sudo umount /dev/disk2s1
+ 3785  sudo dd if=/dev/disk2s1 bs=512 | cat
+ 3786  sudo dd if=/dev/disk2s1 bs=512k count=1 | cat
+ 3787  sudo dd if=/dev/disk2s1 bs=512B count=1 | cat
+ 3788  sudo dd if=/dev/disk2s1 bs=512b count=1 | cat
+ 3789* ls
+ 3790* dd -- hel
+ 3791* dd --help
+ 3792* man ddd
+ 3793* man dd
+ 3794  sudo dd if=/dev/disk2s1 bs=512 count=1 | cat
+ 3795  sudo dd if=/dev/disk2s1 bs=512 count=1 | od -A n -t x1
+ 3796  ls
+ 3797  mkdir test
+ 3798  ls
+ 3799  cd test
+ 3800  sudo dd if=/dev/disk2s1 bs=512 count=1 | > test.bin
+ 3801  od -A n -t x1 test.bin
+ 3802  qemu-system-x86_64 test.bin
+ 3803  od -A n -t x1z test.bin
+ 3804  man od
+ 3805  ndisasm test.bin
+ 3806  ndisasm test.bin | grep 'int'
+ 3807  ndisasm test.bin | grep -n  'int'
+ 3808  ndisasm test.bin | wc -l
+ 3809* ls
+ 3810* reload
+ 3811* ls
+ 3812* reload
+ 3813* ls
+ 3814* cd OSProjects
+ 3815* ls
+ 3816* cd test
+ 3817* ls
+ 3818* vim udisk.bj
+ 3819  clear
+ 3820  history --help
+ 3821  man history
+ 3822  history -h
+ 3823  clear
+ 3824  history
+ 3825  history 124
+ 3826  history 1
+ 3827  history -n 1
+ 3828  history | tail -n 124
